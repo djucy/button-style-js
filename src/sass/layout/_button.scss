@@ -53,8 +53,8 @@ font-family: 'Oleo Script Swash Caps', cursive;
   // justify-content: center;
   // align-items: center;
   text-align: center;
-  height: 20px;
-  padding: 5px;
+  height: 25px;
+  padding-left: 5px;
   margin-top: 5px;
   width: 150px;
   background-color:gainsboro;
@@ -70,8 +70,8 @@ font-family: 'Oleo Script Swash Caps', cursive;
 .style_size{
   margin-top: 5px;
   width:50px;
-  height: 20px;
-  padding: 10px;
+  height: 25px;
+  padding-left: 10px;
   background-color: gainsboro;
     border-style: none;
   &--position:not(:last-child){

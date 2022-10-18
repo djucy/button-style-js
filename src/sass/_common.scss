@@ -1,4 +1,9 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body{
   height: 100vh;
 }

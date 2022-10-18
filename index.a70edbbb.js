@@ -1,0 +1,2 @@
+const e=document.querySelector(".style_button"),t=document.querySelectorAll("[data-size]"),o=document.querySelector(".button_load"),l=document.querySelectorAll("[data-color]"),c=document.querySelector("[data-text]");o.addEventListener("click",(function(){t.forEach((t=>{let o=t.dataset.size,l=t.value;e.style[o]=l+"px"})),l.forEach((t=>{let o=t.dataset.color;e.style[o]=t.value})),e.textContent=c.value}));
+//# sourceMappingURL=index.a70edbbb.js.map

@@ -1,7 +1,12 @@
 .container{
-  padding: 20px;
+  // padding: 10px;
+  padding-top: 10px;
   height: 100%;
   background-color: gainsboro;
+  @media(min-width:1200px){
+    padding-top:25px;
+    
+  }
 }
 
 
@@ -12,12 +17,21 @@
 margin-left: auto;
 margin-right: auto;
 padding: 20px 30px;
-width: 70%;
+width: 90%;
   border: 2px solid rgb(139, 158, 235);
   border-radius: 10px;
   background-color: rgb(49, 48, 56);
 font-family: 'Oleo Script Swash Caps', cursive;
   color: chocolate;
+  @media(min-width:468px){
+    width: 80%;
+  }
+  @media(min-width:768px){
+    width:70%;
+  }
+  @media(min-width:1200px){
+    width:860px;
+  }
 }
 
 .style_button{
@@ -26,7 +40,11 @@ font-family: 'Oleo Script Swash Caps', cursive;
 }
 .style_form{
   
-  width: 70%;
+  // width: 70%;
+  width: 90%;
+  @media(min-width:768px){
+    width:70%;
+  }
 }
 .form_container{
  
@@ -38,6 +56,7 @@ font-family: 'Oleo Script Swash Caps', cursive;
 .form_wrap{
  
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   &:not(:first-child){
      margin-top: 20px;
